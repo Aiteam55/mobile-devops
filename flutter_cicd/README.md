@@ -1,16 +1,16 @@
 # flutter_cicd
 
-A new Flutter project.
+A flutter project for learning google play store deployment using GitHub actions and fastlane
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+There are 3 environments set for the project :
 
-A few resources to get you started if this is your first Flutter project:
+- DEV
+- STAGING
+- PROD
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run the project use the command :
+flutter run --dart-define=ENVIRONMENT=DEV for DEV environment
+flutter run --dart-define=ENVIRONMENT=STAGING for STAGING environment
+flutter run --dart-define=ENVIRONMENT=PROD for PROD environment
