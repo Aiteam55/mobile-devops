@@ -4,4 +4,7 @@ class AppConfigProd extends AppConfig {
   /// App version
   @override
   String appVersion() => "1.0.0-release";
+
+  @override
+  bool debugMode() => false;
 }

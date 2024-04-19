@@ -4,4 +4,6 @@ abstract class AppConfig {
 
   //App version
   String appVersion() => "1.0.0";
+
+  bool debugMode() => true;
 }
