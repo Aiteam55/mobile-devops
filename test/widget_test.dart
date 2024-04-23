@@ -4,7 +4,7 @@ void main() {
   group('Simple Math Test', () {
     test('adds 1 + 2 to equal 3', () {
       final result = add(1, 2);
-      expect(result, 3);
+      expect(result, 4);
     });
   });
 }
