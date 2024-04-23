@@ -14,3 +14,5 @@ To run the project use the command :
 flutter run --dart-define=ENVIRONMENT=DEV for DEV environment
 flutter run --dart-define=ENVIRONMENT=STAGING for STAGING environment
 flutter run --dart-define=ENVIRONMENT=PROD for PROD environment
+
+Adding test workflow
