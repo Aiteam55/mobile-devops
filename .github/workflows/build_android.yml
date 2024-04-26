@@ -28,5 +28,5 @@ jobs:
         uses: actions/upload-artifact@v4.3.3
         with:
           name: Upload ${{ matrix.build_mode }} apk
-          path: build/app/outputs/flutter-apk/${{ matrix.build_mode }}/app-${{ matrix.build_mode }}.apk
+          path: build/app/outputs/flutter-apk/app-${{ matrix.build_mode }}.apk
           retention-days: 15
